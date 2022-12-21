@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.Tabs{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.Tabs_right{
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  padding:20px 80px;
+  color: rgb(37, 37, 37);
+}
+.Tabs_left{
+  font-size: 15px;
+  color: grey;
+  font-weight: 500;
+  display: flex;
+  gap:40px;
+  padding:20px 80px;
+}
+.Tabs_left p:active{
+  color: black;
+}
+.Tabs_left p:hover{
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+}
+.active_bar{
+  margin-top: -20px;
+  height: 2px;
+  width:90%;
+  margin-left: 80px;
+  background-color: rgb(216, 210, 210);
+}
+.search{
+  align-items: center;
+  padding: 5px 80px;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  color: rgb(126, 126, 126);
+}
+.filter{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.searchIcon{
+  cursor: pointer;
+}
+
+.cardList{
+  padding:20px 80px;
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  /* width: 1024px; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,10 @@
+.filter_container{
+    width:400px;
+    height:400px;
+    background-color: rgb(213, 208, 208);
+    position: absolute;
+    z-index: 100;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 10%;
+	right: 10%;
+}
